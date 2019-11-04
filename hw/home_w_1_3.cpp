@@ -275,7 +275,7 @@ pid_t run_job(Job& job) {
     }
 
     if (pid == 0) {
-        // We're in the child process.
+        // We're in the child process
         // Now run the job
 
         int num_args = job.args.size();
